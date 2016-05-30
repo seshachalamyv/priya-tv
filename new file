@@ -1,0 +1,4 @@
+rails g scaffold profile name cname addr mob
+
+rails g scaffold advertisement profile:references name atype cost:integer acost:integer bcost:integer active:boolean balance:boolean date:date due howmany
+
